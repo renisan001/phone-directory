@@ -3,7 +3,11 @@
 function App() {
   return (
     <div >
-      phone directory
+      <label>Username:</label><br />
+      <input type="text" name="Username"></input><br />
+      <label>Password</label><br />
+      <input type="text" name="Password"></input>
+
     </div>
   );
 }
